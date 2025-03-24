@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nakul Kumar - Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Space Background -->
+    <div class="space-background"></div>
+    <div class="stars"></div>
+    <div class="binary-background"></div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <img src="images/profile.jpg" alt="Your Profile" class="profile-image">
+                <div class="hero-content">
+                    <h1>Nakul Kumar</h1>
+                    <h2>Full Stack | AI Engineer | Data Analyst</h2>
+                    <a href="resume.pdf" download class="resume-btn">
+                        <i class="fas fa-file-pdf"></i> Download Resume
+                    </a>
+                    <div class="social-links">
+                        <a href="https://github.com/rsnakul2021" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/nakulrav" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>print("Hello World!")</h2>
+                <p>I'm Nakul. I graduated from Boston University in 2025 with a Masters degree in Data Science. Prior to BU, I worked as a Data Engineer and completed two internships as a Software Engineer.</p>
+                <p>While I do believe in the power of AI and Data Science, I also believe in the power of software engineering and building scalable and efficient systems. The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals.</p>
+                <p>When I'm not programming, I focus on my hobbies which are: basketball, gym, and spending time with my friends and family.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 (Previously Project 3) -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project3.jpg" alt="Project 3">
+                            <div class="project-overlay">
+                                <a href="https://github.com/rsnakul2021/personal_voice_chat_bot" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> View Project
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>LLM Powered Voice Assistant</h3>
+                            <p>A real-time voice assisted chat bot that reponds to any questions regarding the owner's portfolio/life.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">pyttsx3</span>
+                                <span class="tech-tag">OpenAI</span>
+                                <span class="tech-tag">Scipy</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 (Previously Project 1) -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project1.jpg" alt="Project 1">
+                            <div class="project-overlay">
+                                <a href="https://github.com/rsnakul2021/research_paper_summarizer" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> View Project
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>AI-Powered Research Paper Summarizer</h3>
+                            <p>A real-time application powered with OpenAI and Pinecode to provide detailed summaries of research papers.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">LangChain</span>
+                                <span class="tech-tag">Pinecone</span>
+                                <span class="tech-tag">Flask</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 (Previously Project 2) -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project2.jpg" alt="Project 2">
+                            <div class="project-overlay">
+                                <a href="https://github.com/rsnakul2021/AndroidLogPipeline" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> View Project
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Anomaly Detection in Android Event Logs</h3>
+                            <p>A PySpark model used to classify Android Logs and detect anomalies in them.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Spark</span>
+                                <span class="tech-tag">AWS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- New Project 4 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project4.png" alt="Project 4">
+                            <div class="project-overlay">
+                                <a href="https://github.com/rsnakul2021/LinkedIn_search_llm" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> View Project
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Web Scraping and LLM Powered LinkedIn Search</h3>
+                            <p>LinkedIn Webpage scaping with OpenAI LLM calls and Tavily.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Tavily</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Llama</span>
+                                <span class="tech-tag">LangChain</span> 
+                                <span class="tech-tag">LangGraph</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="timeline">
+                    <!-- Experience 1 -->
+                    <div class="experience-item">
+                        <img src="images/mavenir-logo.jpg" alt="Mavenir Systems" class="company-logo">
+                        <div class="experience-content">
+                            <div class="experience-header">
+                                <h3 class="company-name">Mavenir Systems</h3>
+                                <div class="job-title">Data Engineer</div>
+                                <div class="job-period">August 2022 - March 2023</div>
+                            </div>
+                            <p class="job-description">
+                                Development of scalable pipelines to transform telecom data.
+                            </p>
+                            <ul class="achievements">
+                                <li>Real time transformation of data from network test point access units.</li>
+                                <li>Boosted network performance by 35%, optimizing real-time data flows.</li>
+                                <li>Achieved 20% reduction in network processing latency.</li>
+                            </ul>
+                            <div class="skills-used">
+                                <span class="skill-tag">Kafka</span>
+                                <span class="skill-tag">Apache NiFi</span>
+                                <span class="skill-tag">Prometheus</span>
+                                <span class="skill-tag">Spark</span>
+                                <span class="skill-tag">AWS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience 2 -->
+                    <div class="experience-item">
+                        <img src="images/purdue.jpg" alt="Company Name" class="company-logo">
+                        <div class="experience-content">
+                            <div class="experience-header">
+                                <h3 class="company-name">Purdue University</h3>
+                                <div class="job-title">Research Intern</div>
+                                <div class="job-period">February 2022 - August 2022</div>
+                            </div>
+                            <p class="job-description">
+                                Development of ETL pipeline with NLP to secure GitHub workflows.
+                            </p>
+                            <ul class="achievements">
+                                <li>Researched and engineered AI-driven solutions to detect GitHub vulnerabilities, reducing security threats by 63%.</li>
+                                <li>Developed a novel NLP approach to transform unstructured data into structured data, enabling efficient data processing and analysis.</li>
+                                <li>Fine-tuned pre-trained CNNs (InceptionNet) to improve diagnostic accuracy of Brain Tumors.</li>
+                            </ul>
+                            <div class="skills-used">
+                                <span class="skill-tag">NLP</span>
+                                <span class="skill-tag">Cybersecurity</span>
+                                <span class="skill-tag">TensorFlow</span>
+                                <span class="skill-tag">Keras</span>
+                                <span class="skill-tag">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience 3 -->
+                    <div class="experience-item">
+                        <img src="images/Yoko.png" alt="Company Name" class="company-logo">
+                        <div class="experience-content">
+                            <div class="experience-header">
+                                <h3 class="company-name">Yokogawa</h3>
+                                <div class="job-title">Software Engineer Intern</div>
+                                <div class="job-period">July 2020 - December 2020</div>
+                            </div>
+                            <p class="job-description">
+                                Architecturing satellite vehicle density detection system and mask detection system.
+                            </p>
+                            <ul class="achievements">
+                                <li>Developed a satellite vehicle density detection system in collaboration with the department of Bangalore traffic police, to optimize traffic flow at bottleneck junctions in city.</li>
+                                <li>Reduced city-wide traffic congestion by 12%.</li>
+                                <li>Fine-tuned CNNs to enhance mask detection accuracy.</li>
+                            </ul>
+                            <div class="skills-used">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">TensorFlow</span>
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">OpenCV</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="timeline">
+                    <!-- Education 1 -->
+                    <div class="experience-item">
+                        <img src="images/BU.png" alt="University Name" class="company-logo">
+                        <div class="experience-content">
+                            <div class="experience-header">
+                                <h3 class="company-name">Boston University</h3>
+                                <div class="job-title">Master of Science in Applied Data Science</div>
+                                <div class="job-period">2023 - 2025</div>
+                            </div>
+                            <div class="skills-used">
+                                <span class="skill-tag">Big Data Analysis</span>
+                                <span class="skill-tag">Advanced Deep Learning</span>
+                                <span class="skill-tag">Data Analytics and Visualization</span>
+                                <span class="skill-tag">Data Science with Python</span>
+                                <span class="skill-tag">Data & Web Mining</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education 2 -->
+                    <div class="experience-item">
+                        <img src="images/rv.png" alt="University Name" class="company-logo">
+                        <div class="experience-content">
+                            <div class="experience-header">
+                                <h3 class="company-name">R. V. College of Engineering</h3>
+                                <div class="job-title">Bachelor of Engineering in Computer Science</div>
+                                <div class="job-period">2018 - 2022</div>
+                            </div>
+                            <div class="skills-used">
+                                <span class="skill-tag">Data Structures</span>
+                                <span class="skill-tag">Operating Systems</span>
+                                <span class="skill-tag">Advanced Algorithms</span>
+                                <span class="skill-tag">Object Oriented Programming</span>
+                                <span class="skill-tag">Database Management Systems</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-container">
+                    <div class="skills-track">
+                        <div class="skill-item">
+                            <img src="images/python.png" alt="Python">
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/javascript.png" alt="JavaScript">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/react.png" alt="React">
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/nodejs.png" alt="Node.js">
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/tensorflow.png" alt="TensorFlow">
+                            <span>TensorFlow</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/aws.png" alt="AWS">
+                            <span>AWS</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/docker.png" alt="Docker">
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/git.png" alt="Git">
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/langchain.png" alt="LangChain">
+                            <span>LangChain</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/spark.png" alt="Spark">
+                            <span>Spark</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/snowflake.png" alt="Snowflake">
+                            <span>Snowflake</span>
+                        </div>
+                        <!-- Duplicate items for seamless loop -->
+                        <div class="skill-item">
+                            <img src="images/python.png" alt="Python">
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/javascript.png" alt="JavaScript">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/react.png" alt="React">
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/nodejs.png" alt="Node.js">
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/tensorflow.png" alt="TensorFlow">
+                            <span>TensorFlow</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/aws.png" alt="AWS">
+                            <span>AWS</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/docker.png" alt="Docker">
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/git.png" alt="Git">
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/langchain.png" alt="LangChain">
+                            <span>LangChain</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/spark.png" alt="Spark">
+                            <span>Spark</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/snowflake.png" alt="Snowflake">
+                            <span>Snowflake</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:rsnakul2021@gmail.com">rsnakul2021@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+917899426942">+91 7899426942</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Bangalore, Karnataka</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/rsnakul2021" target="_blank">GitHub</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://linkedin.com/in/nakulrav" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form" action="https://formspree.io/f/meoaggzo" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" required placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" required placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <div class="footer-bar">
+            <div class="container">
+                <p>&copy; 2024 Nakul Kumar. All rights reserved.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/animation.js"></script>
+    <script src="js/scroll.js"></script>
+</body>
+</html> 

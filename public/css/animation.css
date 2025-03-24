@@ -1,0 +1,43 @@
+/* Binary Animation */
+.binary-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.binary-bit {
+    position: absolute;
+    color: rgba(0, 255, 0, 0.5);
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(0, 255, 0, 0.4);
+    animation: fall linear infinite;
+    z-index: 1;
+    will-change: transform, opacity;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-100%) translateZ(0);
+        opacity: 0;
+    }
+    8% {
+        opacity: 0.9;
+    }
+    92% {
+        opacity: 0.9;
+    }
+    100% {
+        transform: translateY(100vh) translateZ(0);
+        opacity: 0;
+    }
+} 
